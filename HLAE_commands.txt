@@ -1,0 +1,55 @@
+sv_cheats 1
+
+Mirv_streams add baseFx RAW
+Mirv_streams preview raw
+(adds contrast)
+
+Fov_cs_debug 100
+(zoomed out)  
+
+
+Mirv_deathmsg debug 1
+Mirv_deathmsg block !id * 
+Mirv_deathmsg cfg noticelifetime 60
+Mirv_deathmsg highlightId id
+Mirv_replace_name debug 1
+Mirv_replace_name id “name”
+(deathnotices)
+
+Mirv_streams record start 
+Mirv_streams record end
+
+
+mirv_campath add
+mirv_campath clear
+mirv_campath enable 
+mirv_campath enable 0
+
+MUTE COMMANDS
+Voice_show_mute
+Voice_player_volume # 0
+(# = player number)
+
+Sv_cheats 1
+Fov_cs_debug 100
+Mp_display_kill_assists 0
+mat_ambient_light_g 0.0 
+cl_drawhud_force_radar -1
+
+cl_phys_timescale | cl_ragdoll_gravity
+
+POV
+mirv_pov #
+mirv_listentities isPlayer=1
+
+Mirv_fov
+Mirv_input camera
+
+sv_cheats 1; mat_postprocess_enable 0; snd_setmixer dialog vol 0; mirv_snd_timescale 1; host_timescale 0; snd_setmixer c4 vol 0; host_framerate 400; mirv_streams record name "D:\Files\1-Media-NVMe\1-Video\3-HLAE-records"
+
+Third Person
+mirv_cam offset 0 0 0 0 0 0
+
+SO PROPS DONT FADE IN AND OUT 
+r_disable_static_prop_loading 1
+prop_debug 1
