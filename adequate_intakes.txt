@@ -1,0 +1,17 @@
+A		        1 000 µg        3 000 µg
+B3		        16 mg           35 mg
+B6 		        1.3 mg          100 mg
+B9 		        400 µg          1 000 µg
+C		        90 mg           2 000 mg
+D               15 µg           50 µg
+E               15 mg           1 000 mg
+
+
+
+Sodium          2 300 mg        Not known
+Calcium         1 000 mg        2 500 mg
+Iron            8 mg            45 mg
+Magnesium       420 mg          350 mg
+Zinc            11 mg           40 mg
+Potassium       4 700 mg        Not known
+Chloride        2 300 mg        Not known
